@@ -1,0 +1,116 @@
+.header{
+    height:67px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    justify-content: center;
+    z-index: 200;
+}
+
+.left-session{
+    display:flex;
+    flex:2;
+    justify-content: center;
+    min-width: 100px;
+}
+
+.right-session{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    position:relative;
+}
+
+.about-button,
+.contact-button
+{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+.contact-button{
+    margin-left:20px;
+}
+
+
+.button-container{
+    position:relative;
+    display:flex;
+    flex:1;
+    margin-left:70px;
+}
+
+.about-icon:hover{
+    cursor: pointer;
+}
+
+.contact-icon:hover{
+    cursor: pointer;
+
+}
+
+.service-icon:hover{
+    cursor: pointer;
+}
+
+.about-icon,
+.contact-icon,
+.service-icon{
+    font-family: Roboto, Arial;
+    font-size:20px;
+    font-weight:370;
+    position:relative;
+}
+
+.company-info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+    left:-300px;
+}
+
+.company-logo{
+    width:70px;
+    margin-right:3px;
+    margin-bottom:6px;
+    object-fit:contain;
+    margin-left:20px;
+}
+
+.company-info:hover{
+    cursor: pointer;
+}
+
+.signup-button {
+  background-color: #86a14a;
+  color: white;
+  border-style: solid;
+  border-color: #86a14a;
+  border-width: 1px;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 18px 40px 18px 40px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black; 
+}
+
+.appointment-class {
+  color: white;
+  text-decoration: none;
+}
