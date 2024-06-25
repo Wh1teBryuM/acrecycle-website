@@ -71,6 +71,11 @@
     position:relative;
 }
 
+.contact-icon{
+        margin-left:25px;
+        margin-right:5px;
+    }
+
 .company-info{
     display:flex;
     flex-direction: row;
