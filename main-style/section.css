@@ -104,6 +104,7 @@
     height:400px;
     margin-top:60px;
     align-items: center;
+    margin-right:25px;
 
 }
 
@@ -154,5 +155,355 @@
 }
 
 .whatsapp-qrcode{
-    width:450px;
+    object-position: top;
+    object-fit: contain;
+    width:420px;
+}
+
+/* Responsive Adjustments */
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .signup-session,
+    .contact-session {
+        height: 600px;
+    }
+
+    .about-session{
+        height:650px;
+    }
+
+    .qr-container{
+        margin-right:50px;
+        margin-left:150px;
+    }
+
+    .inquiry1,
+    .inquiry2
+    {
+        font-size:45px;
+    }
+
+    .contact-container{
+        margin-left:20px;
+        width:650px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+    .signup-session,
+    .about-session,
+    .contact-session{
+        height:650px;
+    }
+
+    .head-name {
+        font-size: 60px;
+    }
+
+    .description {
+        font-size: 28px;
+    }
+
+    .signup-button2 {
+        font-size: 26px;
+        padding: 25px 45px;
+    }
+
+    .headname-container{
+        margin-top:60px;
+    }
+
+    .question-container{
+        height:
+    }
+
+    .inquiry1,
+    .inquiry2
+    {
+        font-size:40px;
+    }
+
+    .contact-container{
+        margin-left:20px;
+        width:500px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .signup-session,
+    .contact-session {
+        height: 500px;
+    }
+
+    .about-session{
+        height:600px;
+    }
+
+    .about-header{
+        font-size: 45px;
+    }
+
+    .about-question,
+    .about-answer{
+        font-size: 20px;
+    }
+
+    .description-container{
+        margin-top:20px;
+    }
+
+    .head-name {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 24px;
+    }
+
+    .signup-button2 {
+        font-size: 22px;
+        padding: 20px 40px;
+    }
+
+    .question1,
+    .question2,
+    .question3 {
+        width: 600px;
+        margin-bottom:20px;
+    }
+
+    .whatsapp-qrcode {
+        width: 350px;
+    }
+
+    .qr-container{
+        margin-left:50px;
+        margin-right: 100px;;
+    }
+
+    .inquiry1,
+    .inquiry2{
+        font-size: 35px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .signup-session {
+        height: 450px;
+    }
+
+    .contact-session{
+        height:500px;
+    }
+
+    .about-session{
+        height:600px;
+    }
+
+    .about-header{
+        font-size: 25px;
+    }
+
+    .about-question,
+    .about-answer{
+        font-size: 18px;
+    }
+
+    .about-header{
+        font-size: 40px;
+    }
+
+    .head-name {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .signup-button2 {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .question1,
+    .question2,
+    .question3 {
+        width: 550px;
+    }
+
+    .whatsapp-qrcode {
+        width: 300px;
+    }
+
+    .inquiry1,
+    .inquiry2{
+        font-size:27px;
+    }
+
+    .qr-container {
+        margin-left: 50px;
+    }
+
+    .singup-button{
+        font-size:16px;
+        padding:14px 28px;
+    }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .signup-session,
+    .contact-session {
+        height: 400px;
+    }
+
+    .about-seesion{
+        height:600px;
+    }
+
+    .about-header{
+        font-size: 35px;
+    }
+
+    .about-question,
+    .about-answer{
+        font-size:16px;
+    }
+
+    .left-session{
+        left:-100px;
+    }
+
+
+    .head-name {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+
+    .head-name {
+        font-size: 35px;
+    }
+
+    .headname-container{
+        margin-top:120px;
+    }
+
+    .signup2-container{
+        margin-bottom:20px;
+    }
+
+    .question1,
+    .question2,
+    .question3 {
+        width: 400px;
+    }
+
+    .whatsapp-qrcode {
+        width: 250px;
+    }
+
+    .contact-container {
+        margin-right: 10px;
+        white-space: contain;
+    }
+
+    .qr-container {
+        margin-left: 50px;
+    }
+
+    .singup-button{
+        font-size:16px;
+        padding:16px 32px;
+    }
+
+    .inquiry{
+        font-size: 25px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .contact-session {
+        height: 300px;
+    }
+
+    .about-session{
+        height:600px;
+    }
+
+    .signup-session{
+        height:400px;
+    }
+
+    .contact-session,
+    .about-session,
+    .signup-session{
+        min-width:475px;
+    }
+
+    .head-name{
+        font-size:35px;
+    }
+
+    .description{
+        font-size: 18px;
+    }
+
+    .about-header{
+        font-size: 30px;
+    }
+
+    .head-name {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .headname-container{
+        margin-top:160px;
+    }
+
+    .description-container{
+        margin-top:30px;
+    }
+
+    .singup-button{
+        font-size:16px;
+        padding:15px 30px;
+    }
+
+    .signup2-container{
+        margin-top:-30px;
+    }
+
+    .question1,
+    .question2,
+    .question3 {
+        width: 400px;
+    }
+
+    .whatsapp-qrcode {
+        width: 250px;
+    }
+
+    .contact-container {
+        align-items: flex-start;
+    }
+
+    .qr-container {
+        margin-left: 15px;
+    }
 }
